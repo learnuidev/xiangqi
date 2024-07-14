@@ -3,7 +3,7 @@ const { xiangqi } = require("../src");
 const { createBoard } = require("../src/create-board");
 
 describe("when you call createBoard", () => {
-  it("creates a xiangqi board", () => {
+  it("by passing no arguments, it creates a xiangqi board", () => {
     const xiangqiBoard = createBoard();
 
     // console.log(xiangqiBoard);

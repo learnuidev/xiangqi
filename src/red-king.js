@@ -19,3 +19,5 @@ const redKingMovements = {
   105: [104, 95, 106],
   106: [96, 105],
 };
+
+module.exports.redKingMovements = redKingMovements;

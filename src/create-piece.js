@@ -1,15 +1,9 @@
-const { blueKingMovements } = require("./blue-king");
-
-const piecesMap = {
-  "blue:king": {
-    id: "blue-king",
-    title: "Blue King",
-    movements: blueKingMovements,
-  },
-};
-
-const createPiece = ({ variant }) => {
-  return piecesMap[variant];
+const createPiece = ({ id, title, position }) => {
+  return {
+    id,
+    title,
+    position,
+  };
 };
 
 module.exports.createPiece = createPiece;
