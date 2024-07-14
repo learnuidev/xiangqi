@@ -89,6 +89,30 @@ const piecesMap = {
     position: 108,
   },
   // 5. Counsellor x 4
+  "blue-counsellor-1": {
+    id: "blue-counsellor-1",
+    type: "counsellor",
+    title: "Blue Counsellor",
+    position: 14,
+  },
+  "blue-counsellor-2": {
+    id: "blue-counsellor-2",
+    type: "counsellor",
+    title: "Blue Counsellor",
+    position: 16,
+  },
+  "red-counsellor-1": {
+    id: "red-counsellor-1",
+    type: "counsellor",
+    title: "Red Counsellor",
+    position: 104,
+  },
+  "red-counsellor-2": {
+    id: "red-counsellor-2",
+    type: "counsellor",
+    title: "Red Counsellor",
+    position: 106,
+  },
   // 5. Minister x 4
   // 5. Pawn x 10
 };
