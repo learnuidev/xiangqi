@@ -1,4 +1,4 @@
-const piecesMap = {
+const pieces = {
   // 1. Kings x 2
   "blue-king": {
     id: "blue-king",
@@ -139,4 +139,66 @@ const piecesMap = {
     position: 107,
   },
   // 5. Pawn x 10
+  "blue-pawn-1": {
+    id: "blue-pawn-1",
+    type: "pawn",
+    title: "Blue Pawn",
+    position: 41,
+  },
+  "blue-pawn-2": {
+    id: "blue-pawn-2",
+    type: "pawn",
+    title: "Blue Pawn",
+    position: 43,
+  },
+  "blue-pawn-3": {
+    id: "blue-pawn-3",
+    type: "pawn",
+    title: "Blue Pawn",
+    position: 45,
+  },
+  "blue-pawn-4": {
+    id: "blue-pawn-4",
+    type: "pawn",
+    title: "Blue Pawn",
+    position: 47,
+  },
+  "blue-pawn-5": {
+    id: "blue-pawn-5",
+    type: "pawn",
+    title: "Blue Pawn",
+    position: 49,
+  },
+  "red-pawn-1": {
+    id: "red-pawn-1",
+    type: "pawn",
+    title: "Red Pawn",
+    position: 71,
+  },
+  "red-pawn-2": {
+    id: "red-pawn-2",
+    type: "pawn",
+    title: "Red Pawn",
+    position: 73,
+  },
+  "red-pawn-3": {
+    id: "red-pawn-3",
+    type: "pawn",
+    title: "Red Pawn",
+    position: 75,
+  },
+  "red-pawn-4": {
+    id: "red-pawn-4",
+    type: "pawn",
+    title: "Red Pawn",
+    position: 77,
+  },
+  "red-pawn-5": {
+    id: "red-pawn-5",
+    type: "pawn",
+    title: "Red Pawn",
+    position: 79,
+  },
 };
+
+module.exports.pieces = pieces;
