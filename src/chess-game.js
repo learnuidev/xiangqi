@@ -1,0 +1,3 @@
+const chessGame = () => {
+  const state = {};
+};

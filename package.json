@@ -1,0 +1,24 @@
+{
+  "name": "xiangqi-engine",
+  "version": "1.0.0",
+  "description": "xiangqi-engine written in pure js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx mocha __tests/**/*.js",
+    "test:watch": "npx mocha __tests/**/*.js --watch"
+  },
+  "keywords": [
+    "xiangqi",
+    "chess",
+    "strategy",
+    "functional",
+    "programming",
+    "algorithms"
+  ],
+  "devDependencies": {
+    "chai": "4.1.1",
+    "mocha": "^10.6.0"
+  },
+  "author": "Vishal Gautam <learnuidev@gmail.com>",
+  "license": "MIT"
+}
