@@ -114,5 +114,29 @@ const piecesMap = {
     position: 106,
   },
   // 5. Minister x 4
+  "blue-minister-1": {
+    id: "blue-minister-1",
+    type: "minister",
+    title: "Blue Minister",
+    position: 13,
+  },
+  "blue-minister-2": {
+    id: "blue-minister-2",
+    type: "minister",
+    title: "Blue Minister",
+    position: 17,
+  },
+  "red-minister-1": {
+    id: "red-minister-1",
+    type: "minister",
+    title: "Red Minister",
+    position: 103,
+  },
+  "red-minister-2": {
+    id: "red-minister-2",
+    type: "minister",
+    title: "Red Minister",
+    position: 107,
+  },
   // 5. Pawn x 10
 };
