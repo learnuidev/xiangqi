@@ -11,7 +11,7 @@ const createBoard = () => {
         .map((x, i) => i + 1)
         .map((col) => {
           return {
-            id: `${row}${col}`,
+            position: parseInt(`${row}${col}`),
             row: row,
             col: col,
           };
