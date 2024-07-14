@@ -6,7 +6,7 @@ describe("when you call createBoard", () => {
   it("by passing no arguments, it creates a xiangqi board", () => {
     const xiangqiBoard = createBoard();
 
-    console.log(xiangqiBoard);
+    // console.log(xiangqiBoard);
 
     expect(xiangqiBoard).to.be.an("array");
     expect(xiangqiBoard?.length).to.equal(90);
