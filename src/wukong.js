@@ -11,6 +11,8 @@
  ===============================================
 \************************************************/
 
+// Source Url: https://github.com/maksimKorzh/wukong-xiangqi
+
 var Engine = function () {
   // engine version
   const VERSION = "1.0";

@@ -1,5 +1,3 @@
-const xiangqi = () => {
-  return {};
-};
+const { Engine } = require("./wukong");
 
-module.exports.xiangqi = xiangqi;
+module.exports.xiangqi = Engine;
